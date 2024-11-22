@@ -195,7 +195,7 @@ print(classLabels)
 print(len(classLabels))
 
 # In[9]:Display the image using imshow()
-img=cv2.imread('cow.jpg')
+img=cv2.imread('car.jpg')
 plt.imshow(img)
 
 
@@ -224,7 +224,7 @@ for ClassInd,conf,boxes in zip(ClassIndex.flatten(),confidence.flatten(),bbox):
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/2a6af99e-7b21-4d69-b4cf-f49fb0402dbb)
+![image](https://github.com/user-attachments/assets/d2eee8b1-c441-49cc-b620-359068280b90)
 
 ## RESULT:
 Thus, The python program using OpenCV to do the image manipulations is executed successfully.
